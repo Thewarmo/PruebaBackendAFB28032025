@@ -103,7 +103,7 @@ namespace CargoPayWebApi.Services
                 {
                     CardId = card.Id,
                     Amount = amount,
-                    Fee = 0, // No fee for loading
+                    Fee = 0, 
                     TransactionDate = DateTime.UtcNow
                 };
 

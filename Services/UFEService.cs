@@ -44,8 +44,8 @@ public class UFEService
             if (DateTime.Now.Subtract(_lastUpdate).TotalHours >= 1)
             {
                 Random random = new Random();
-                decimal randomMultiplier = (decimal)(random.NextDouble() * 2); // Genera decimal entre 0 y 2
-                _currentFee *= randomMultiplier; // Multiplica la tarifa actual por el decimal aleatorio
+                decimal randomMultiplier = (decimal)(random.NextDouble() * 2); 
+                _currentFee *= randomMultiplier; 
                 _lastUpdate = DateTime.Now;
             }
         }
