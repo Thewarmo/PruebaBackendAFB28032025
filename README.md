@@ -40,12 +40,4 @@ The API uses JWT authentication to secure endpoints and implements the Universal
 ### Setup
 
 1. Clone the repository
-2. Configure user secrets for development:
-
-```bash
-dotnet user-secrets init
-dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Your_DB_Connection_String"
-dotnet user-secrets set "JwtSettings:Key" "Your_JWT_Secret_Key_Min_32_Chars"
-dotnet user-secrets set "JwtSettings:Issuer" "CargoPay"
-dotnet user-secrets set "JwtSettings:Audience" "CargoPay"
-dotnet user-secrets set "JwtSettings:ExpirationInMinutes" "60"
+2. Set up user secrets for development review the submitted attachment
