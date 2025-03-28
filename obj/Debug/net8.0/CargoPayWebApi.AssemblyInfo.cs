@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CargoPayWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c7a8958c4f03d79f83f7904d989b10450796a5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CargoPayWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CargoPayWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
